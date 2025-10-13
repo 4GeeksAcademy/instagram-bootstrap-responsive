@@ -10,112 +10,55 @@
 </head>
 
 <body>
+
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#"><i class="fa-solid fa-book-journal-whills fa-xl"></i> Instagram</a>
-      <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      <a class="navbar-brand" href="#"><i class="fa-solid fa-book-journal-whills fa-xl"></i>
+        Instagram</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#"><button type="button" class="btn btn-success"
-                data-bs-toggle="modal" data-bs-target="#exampleModal">Upload
-                a new photo</button></a>
-            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-              aria-hidden="true">
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="exampleModalLabel">Create a new post</h1>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                  </div>
-                  <div class="modal-body">
-                    <div class="mb-3">
-                      <label for="message-text" class="col-form-label">Caption:</label>
-                      <textarea class="form-control" id="message-text"
-                        placeholder="Add the caption of the post here"></textarea>
-                    </div>
-                    <div class="">
-                      <button type="button" class="btn btn-light  border fs-3"><i
-                          class="fa-solid fa-camera-retro "></i></button>
-                      <button type="button" class="btn btn-light  border fs-3"><i
-                          class="fa-solid fa-earth-americas "></i></button>
-                    </div>
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-success">Publish</button>
-                  </div>
-                </div>
-              </div>
-            </div>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              <button type="button" class="btn btn-secondary dropdown-toggle p-2"><i
-                  class="fa-solid fa-gear"></i></button>
-            </a>
-            <ul class="dropdown-menu dropdown-menu-end">
-              <li><a class="dropdown-item" href="#">Profile</a></li>
-              <li><a class="dropdown-item" href="#">Accesibility</a></li>
-              <li><a class="dropdown-item" href="#">Privacy and data</a></li>
-              <li>
-                <hr class="dropdown-divider">
-              </li>
-              <li><a class="dropdown-item link-danger" href="#">Log out</a></li>
-            </ul>
-          </li>
+
+
+
         </ul>
-      </div>
-    </div>
-  </nav>
-  <!-- <nav class="navbar navbar-light bg-light">
-    <div class="container-fluid d-flex bd-highlight mb-3">
-      <div class="me-auto p-2 bd-highlight">
-        <a class="navbar-brand" href="#">
-          <i class="fa-solid fa-book-journal-whills fa-xl"></i>
-          Instagram
-        </a>
-      </div>
-      <div class="btn-group" role="group">
-        <button type="button" class="btn btn-primary me-4 rounded bg-success border-success" data-bs-toggle="modal"
-          data-bs-target="#exampleModal">Upload a new pic</button>
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h1 class="modal-title fs-5" id="exampleModalLabel">Create a new post</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>
-              <div class="modal-body">
-                <div class="mb-3">
-                  <label for="message-text" class="col-form-label">Caption:</label>
-                  <textarea class="form-control" id="message-text"
-                    placeholder="Add the caption of the post here"></textarea>
+        <div>
+          <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">Upload a
+            new pic</button>
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Create a new post</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="">
-                  <button type="button" class="btn btn-light  border fs-3"><i
-                      class="fa-solid fa-camera-retro "></i></button>
-                  <button type="button" class="btn btn-light  border fs-3"><i
-                      class="fa-solid fa-earth-americas "></i></button>
+                <div class="modal-body">
+                  <div class="mb-3">
+                    <label for="message-text" class="col-form-label">Caption:</label>
+                    <textarea class="form-control" id="message-text"
+                      placeholder="Add the caption of the post here"></textarea>
+                  </div>
+                  <div class="">
+                    <button type="button" class="btn btn-light  border fs-3"><i
+                        class="fa-solid fa-camera-retro "></i></button>
+                    <button type="button" class="btn btn-light  border fs-3"><i
+                        class="fa-solid fa-earth-americas "></i></button>
+                  </div>
                 </div>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-success">Publish</button>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-success">Publish</button>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-
-        <div class="btn-group " role="group">
-          <button type="button" class="btn btn-primary dropdown-toggle rounded bg-secondary border-secondary me-5"
-            data-bs-toggle="dropdown" aria-expanded="false">
-            <i class="fa-solid fa-gear"></i>
-          </button>
+          <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown"
+            aria-expanded="false"><i class="fa-solid fa-gear"></i></button>
           <ul class="dropdown-menu dropdown-menu-end">
             <li><a class="dropdown-item" href="#">Profile</a></li>
             <li><a class="dropdown-item" href="#">Accesibility</a></li>
@@ -128,7 +71,8 @@
         </div>
       </div>
     </div>
-  </nav> -->
+  </nav>
+
 
   <ul class="nav nav-pills mb-3 justify-content-center mt-3" id="pills-tab" role="tablist">
     <li class="nav-item" role="presentation">
